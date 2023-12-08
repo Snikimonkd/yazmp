@@ -8,6 +8,8 @@ function create_window(width, direction)
 	vim.wo.winfixwidth = true
 	vim.wo.cursorline = false
 	vim.o.numberwidth = 1
+	vim.wo.rnu = false
+	vim.wo.nu = false
 end
 
 function M.zenmode(c)
