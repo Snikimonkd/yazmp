@@ -2,7 +2,7 @@
 
 This is my own version of zenmode, highly inspired by [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua).
 
-https://github.com/Snikimonkd/yazmp/assets/72211350/7077c7db-26d6-434f-8733-95c1e583c8d5
+https://github.com/Snikimonkd/yazmp/assets/72211350/4d3028a2-bf4c-42ed-b25e-3f6c87a7f40d
 
 ## Install
 
