@@ -23,16 +23,3 @@ vim.keymap.set("n", "<leader>zm", ":Zenmode<CR>")
 -- or with width
 vim.keymap.set("n", "<leader>zm", ":Zenmode 20<CR>")
 ```
-
-To lazy load and set-up keybinds via lazy
-```lua
-require("lazy").setup({
-    {
-        "Snikimonkd/yazmp",
-        -- event = "VeryLazy",  -- to load after loading the nvim UI
-        keys = {  -- to load the plugin only when the keybinding is pressed
-            {"<leader>zm", "<cmd>Zenmode 30<CR>", desc="Toggle ZenMode"}
-        }
-    },
-)}
-```

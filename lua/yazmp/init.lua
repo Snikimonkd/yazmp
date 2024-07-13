@@ -1,12 +1,13 @@
 local M = {}
 
-function create_window(width, direction)
+local function create_window(width, direction)
 	vim.api.nvim_command("vsp")
 	vim.api.nvim_command("wincmd " .. direction)
 	pcall(vim.cmd, "buffer " .. M.buf)
 	vim.api.nvim_win_set_width(0, width)
 	vim.wo.winfixwidth = true
 	vim.wo.cursorline = false
+	vim.wo.winfixbuf = true
 	vim.o.numberwidth = 1
 	vim.wo.rnu = false
 	vim.wo.nu = false
